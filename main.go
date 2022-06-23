@@ -77,11 +77,12 @@ func main() {
 	fmt.Println(state.currentLocation.Description)
 	fmt.Printf("\n> ")
 
-	readInput(&state, db, "move north")
-	readInput(&state, db, "move up")
-	readInput(&state, db, "take butter")
-	readInput(&state, db, "push step ladder")
-	readInput(&state, db, "move up")
+	readInput(&state, db, "examine pillows")
+	//	readInput(&state, db, "move north")
+	//	readInput(&state, db, "move up")
+	//	readInput(&state, db, "take butter")
+	//	readInput(&state, db, "push step ladder")
+	//	readInput(&state, db, "move up")
 
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {

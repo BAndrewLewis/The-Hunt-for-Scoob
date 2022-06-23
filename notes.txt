@@ -1,0 +1,55 @@
+TODO:
+look command - DONE
+
+move up and down - DONE
+
+examine command - DONE
+
+happy path:
+take butter
+move step ladder
+climb step ladder
+take bowl
+
+add synonyms
+
+
+
+--------------------------------
+print living room message
+
+listen for command
+
+match command string to action available in the room, if it doesn't match anything print an error and keep listening
+
+if the user types go North get the corresponding location from the current location's locations list. The print the new locations description and 
+
+
+
+
+
+
+Win State:
+The user has scoob in their possesion.
+
+How does the player get scoob? 
+They issue the `take scoob` command when scoob is available in the area they are in
+
+How does the player get to the area scoob is in? 
+They explore the world using `go {direction}` commands 
+
+commands:
+examine - print item description
+look - print current location description
+move - 
+push -
+pull - 
+take - add item to players items
+drop - remove item from players inventory
+
+
+Happy path:
+
+
+
+
